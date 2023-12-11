@@ -15,7 +15,7 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                environment: [dattrieu]
+                environment: dattrieu
                 include:
                     - environment: dattrieu
                       # CDF cluster, like bluefield, greenfield or westeurope-1
